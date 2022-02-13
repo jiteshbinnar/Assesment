@@ -1,0 +1,43 @@
+Q1. What are the major features in different versions of Spring Framework?
+Ans: Container - It maintain the lifecycle of object.It can create object.we dont need to create object manually.
+         Dependency injection- Its use for a loose Coupling
+         Integration with other frameworks.
+        Transaction Management
+         Aspect Oriented Programming(AOP)-is used for separating cross-cutting concerns (for example logging, security etc.) from the business logic of the application.
+        Lightweight
+
+Q2. What is a Spring Framework?
+Ans: It is a Framework use to provide infrastructure Support to create High performance java Devloping Application.
+
+Q3. List the advantages of Spring Framework?
+Ans: Spring enables the developer to create high performing, reusable, easily testable and loose coupling enterprise Java application.
+
+Q4. What are the different features of Spring Framework?
+Ans: Aspected Oriented Programming
+        Light Weight
+        Dependency Injection
+       IOC Container
+Q5. How many modules are there in Spring Framework and what are they?
+Ans:  20 modules
+         The Spring framework comprises of many modules such as core, beans, context, expression language, AOP, Aspects,
+         Instrumentation, JDBC, ORM, OXM, JMS, Transaction, Web, Servlet, Struts etc.
+
+Q6. What is a Spring configuration file?
+Ans: Spring configuration file is a file with . xml extension and the file contains information about the classes and interfaces and their dependencies. 
+        Using this file the spring container controls the life cycle of a spring bean and also Dependency Injection is achieved.
+
+Q7. What are the different components of a Spring application?
+Ans: Spring Core, Spring AOP, Spring Web MVC, Spring DAO, Spring ORM, Spring context, and Spring Web flow.
+
+Q8. What are the various ways of using Spring Framework?
+Ans: xml-based configuration, when you describe configuration in xml file.
+        java-based configuration, when configuration is Java class, marked with specific annotations.
+        groovy-based configuration, when configuration is file with Groovy code.
+
+Q9. What is Spring IOC Container?
+Ans: Spring IoC Container is the core of Spring Framework. It creates the objects, configures and assembles their dependencies, manages their entire life cycle.
+        The Container uses Dependency Injection to manage the components that make up the application.
+
+Q10. What do you mean by Dependency Injection?
+Ans: Dependency injection is a technique in which an object receives other objects that it depends on, called dependencies.
+        Typically, the receiving object is called a client and the passed-in object is called a service.
